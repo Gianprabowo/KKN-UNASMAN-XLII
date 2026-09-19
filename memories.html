@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memories — KKN XLII</title>
+  <link rel="stylesheet" href="memories.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="global.css">
+  <link rel="icon" type="image/jpeg" href="assets/images/favicon.png">
+</head>
+<body>
+
+  <header class="navbar" id="navbar">
+    <a href="index.html" class="logo">KKN <span>XLII.</span></a>
+    <nav class="nav-menu">
+      <a href="index.html">Home</a>
+      <a href="index.html#story">Story</a>
+      <a href="memories.html" class="active" aria-current="page">Memories</a>
+      <a href="people.html">People</a>
+      <a href="index.html#goodbye">Goodbye</a>
+    </nav>
+    <button class="menu-btn" id="menuBtn" aria-label="Buka menu" aria-expanded="false" aria-controls="mobileMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+    <section class="memory-hero">
+      <div class="hero-doodle doodle-one" aria-hidden="true">✦</div>
+      <div class="hero-doodle doodle-two" aria-hidden="true">↗</div>
+      <div class="hero-doodle doodle-three" aria-hidden="true">✎</div>
+
+      <div class="hero-content">
+        <div class="eyebrow">
+          <span aria-hidden="true"></span>
+          OUR ARCHIVE
+        </div>
+        <h1>MOMENTS<br><em>WE KEEP.</em></h1>
+        <p>
+          Beberapa foto mungkin terlihat sederhana,
+          tetapi bagi kami, setiap frame menyimpan
+          cerita yang tidak ingin dilupakan.
+        </p>
+        <div class="memory-info">
+          <div><strong id="photoCount">00</strong><span>MEMORIES</span></div>
+          <div><strong>2026</strong><span>BUSSU</span></div>
+          <div><strong>XLII</strong><span>KKN</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery-section">
+      <div class="gallery-top">
+        <div>
+          <p class="section-label">CHOOSE A MEMORY</p>
+          <h2>THE <span>GALLERY.</span></h2>
+        </div>
+        <div class="gallery-note">
+          <span>scroll</span>
+          <span aria-hidden="true">↓</span>
+        </div>
+      </div>
+
+      <div class="filters" role="group" aria-label="Filter kategori memori">
+        <button class="filter-btn active" data-filter="all" aria-pressed="true">ALL</button>
+        <button class="filter-btn" data-filter="people" aria-pressed="false">PEOPLE</button>
+        <button class="filter-btn" data-filter="activities" aria-pressed="false">ACTIVITIES</button>
+        <button class="filter-btn" data-filter="bussu" aria-pressed="false">BUSSU</button>
+        <button class="filter-btn" data-filter="random" aria-pressed="false">RANDOM</button>
+      </div>
+
+      <!-- MASONRY GALLERY — 50 foto, 1.jpeg s/d 50.jpeg -->
+      <div class="memory-grid" id="memoryGrid">
+<!-- Memory 01 -->
+<article class="memory-item tall" data-category="people" data-index="0" data-title="Orang-orang di balik cerita ini" data-date="KKN XLII · 2026" data-image="assets/images/1.jpeg" tabindex="0" role="button" aria-label="Lihat memori: Orang-orang di balik cerita ini">
+  <div class="memory-photo">
+    <img src="assets/images/hero.jpeg" alt="Anggota KKN" loading="lazy">
+    <div class="memory-overlay">
+      <span>LIHAT MEMORI</span>
+      <strong aria-hidden="true">↗</strong>
+    </div>
+    <div class="memory-number">01</div>
+  </div>
+  <div class="memory-caption">
+    <div>
+      <small>ORANG</small>
+      <h3>Orang-orang di balik cerita ini</h3>
+    </div>
+    <span>2026</span>
+  </div>
+</article>
+
+<!-- Memory 02 -->
+<article class="memory-item" data-category="activities" data-index="1" data-title="Hari yang layak dikenang" data-date="KKN XLII · 2026" data-image="assets/images/2.jpeg" tabindex="0" role="button" aria-label="Lihat memori: Hari yang layak dikenang">
+  <div class="memory-photo">
+    <img src="assets/images/2.jpeg" alt="Kegiatan KKN" loading="lazy">
+    <div class="memory-overlay">
+      <span>LIHAT MEMORI</span>
+      <strong aria-hidden="true">↗</strong>
+    </div>
+    <div class="memory-number">02</div>
+  </div>
+  <div class="memory-caption">
+    <div>
+      <small>KEGIATAN</small>
+      <h3>Hari yang layak dikenang</h3>
+    </div>
+    <span>2026</span>
+  </div>
+</article>
+
+<!-- Memory 03 -->
+<article class="memory-item" data-category="bussu" data-index="2" data-title="Tempat yang pernah kami sebut rumah" data-date="DESA BUSSU · 2026" data-image="assets/images/3.jpeg" tabindex="0" role="button" aria-label="Lihat memori: Tempat yang pernah kami sebut rumah">
+  <div class="memory-photo">
+    <img src="assets/images/3.jpeg" alt="Desa Bussu" loading="lazy">
+    <div class="memory-overlay">
+      <span>LIHAT MEMORI</span>
+      <strong aria-hidden="true">↗</strong>
+    </div>
+    <div class="memory-number">03</div>
+  </div>
+  <div class="memory-caption">
+    <div>
+      <small>BUSSU</small>
+      <h3>Tempat yang pernah kami sebut rumah</h3>
+    </div>
+    <span>2026</span>
+  </div>
+</article>
+
+<!-- Memory 04 -->
+<article class="memory-item wide" data-category="people" data-index="3" data-title="Wajah-wajah yang akan kami ingat" data-date="KKN XLII · 2026" data-image="assets/images/4.jpeg" tabindex="0" role="button" aria-label="Lihat memori: Wajah-wajah yang akan kami ingat">
+  <div class="memory-photo">
+    <img src="assets/images/4.jpeg" alt="Anggota KKN" loading="lazy">
+    <div class="memory-overlay">
+      <span>LIHAT MEMORI</span>
+      <strong aria-hidden="true">↗</strong>
+    </div>
+    <div class="memory-number">04</div>
+  </div>
+  <div class="memory-caption">
+    <div>
+      <small>ORANG</small>
+      <h3>Wajah-wajah yang akan kami ingat</h3>
+    </div>
+    <span>2026</span>
+  </div>
+</article>
+
+<!-- Memory 05 -->
+<article class="memory-item tall" data-category="random" data-index="4" data-title="Antara serius dan berantakan" data-date="KKN XLII · 2026" data-image="assets/images/5.jpeg" tabindex="0" role="button" aria-label="Lihat memori: Antara serius dan berantakan">
+  <div class="memory-photo">
+    <img src="assets/images/memory-1.jpeg" alt="Momen KKN" loading="lazy">
+    <div class="memory-overlay">
+      <span>LIHAT MEMORI</span>
+      <strong aria-hidden="true">↗</strong>
+    </div>
+    <div class="memory-number">05</div>
+  </div>
+  <div class="memory-caption">
+    <div>
+      <small>RANDOM</small>
+      <h3>Antara serius dan berantakan</h3>
+    </div>
+    <span>2026</span>
+  </div>
+</article>
+
+<!-- Memory 06 -->
+<article class="memory-item" data-category="activities" data-index="5" data-title="Kami datang untuk mengabdi" data-date="KKN XLII · 2026" data-image="assets/images/6.jpeg" tabindex="0" role="button" aria-label="Lihat memori: Kami datang untuk mengabdi">
+  <div class="memory-photo">
+    <img src="assets/images/6.jpeg" alt="Program kerja KKN" loading="lazy">
+    <div class="memory-overlay">
+      <span>LIHAT MEMORI</span>
+      <strong aria-hidden="true">↗</strong>
+    </div>
+    <div class="memory-number">06</div>
+  </div>
+  <div class="memory-caption">
+    <div>
+      <small>KEGIATAN</small>
+      <h3>Kami datang untuk mengabdi</h3>
+    </div>
+    <span>2026</span>
+  </div>
+</article>
+
+<!-- Memory 07 -->
+<article class="memory-item" data-category="bussu" data-index="6" data-title="Bussu, kami akan merindukanmu" data-date="DESA BUSSU · 2026" data-image="assets/images/7.jpeg" tabindex="0" role="button" aria-label="Lihat memori: Bussu, kami akan merindukanmu">
+  <div class="memory-photo">
+    <img src="assets/images/7.jpeg" alt="Desa Bussu" loading="lazy">
+    <div class="memory-overlay">
+      <span>LIHAT MEMORI</span>
+      <strong aria-hidden="true">↗</strong>
+    </div>
+    <div class="memory-number">07</div>
+  </div>
+  <div class="memory-caption">
+    <div>
+      <small>BUSSU</small>
+      <h3>Bussu, kami akan merindukanmu</h3>
+    </div>
+    <span>2026</span>
+  </div>
+</article>
+
+<!-- Memory 08 -->
+<article class="memory-item" data-category="random" data-index="7" data-title="Hari yang biasa saja, tapi berkesan" data-date="KKN XLII · 2026" data-image="assets/images/8.jpeg" tabindex="0" role="button" aria-label="Lihat memori: Hari yang biasa saja, tapi berkesan">
+  <div class="memory-photo">
+    <img src="assets/images/8.jpeg" alt="Momen KKN" loading="lazy">
+    <div class="memory-overlay">
+      <span>LIHAT MEMORI</span>
+      <strong aria-hidden="true">↗</strong>
+    </div>
+    <div class="memory-number">08</div>
+  </div>
+  <div class="memory-caption">
+    <div>
+      <small>RANDOM</small>
+      <h3>Hari yang biasa saja, tapi berkesan</h3>
+    </div>
+    <span>2026</span>
+  </div>
+</article>
+
+<!-- Memory 09 -->
+<article class="memory-item tall" data-category="people" data-index="8" data-title="Orang-orang yang membuat ini terasa seperti rumah" data-date="KKN XLII · 2026" data-image="assets/images/9.jpeg" tabindex="0" role="button" aria-label="Lihat memori: Orang-orang yang membuat ini terasa seperti rumah">
+  <div class="memory-photo">
+    <img src="assets/images/9.jpeg" alt="Anggota KKN" loading="lazy">
+    <div class="memory-overlay">
+      <span>LIHAT MEMORI</span>
+      <strong aria-hidden="true">↗</strong>
+    </div>
+    <div class="memory-number">09</div>
+  </div>
+  <div class="memory-caption">
+    <div>
+      <small>ORANG</small>
+      <h3>Orang-orang yang membuat ini terasa seperti rumah</h3>
+    </div>
+    <span>2026</span>
+  </div>
+</article>
+
+<!-- Memory 10 -->
+<article class="memory-item" data-category="activities" data-index="9" data-title="Tangan-tangan yang menyelesaikan pekerjaan" data-date="KKN XLII · 2026" data-image="assets/images/10.jpeg" tabindex="0" role="button" aria-label="Lihat memori: Tangan-tangan yang menyelesaikan pekerjaan">
+  <div class="memory-photo">
+    <img src="assets/images/10.jpeg" alt="Kegiatan KKN" loading="lazy">
+    <div class="memory-overlay">
+      <span>LIHAT MEMORI</span>
+      <strong aria-hidden="true">↗</strong>
+    </div>
+    <div class="memory-number">10</div>
+  </div>
+  <div class="memory-caption">
+    <div>
+      <small>KEGIATAN</small>
+      <h3>Tangan-tangan yang menyelesaikan pekerjaan</h3>
+    </div>
+    <span>2026</span>
+  </div>
+</article>
+
+<!-- Memory 11 -->
+<article class="memory-item wide" data-category="bussu" data-index="10" data-title="Tempat jalan berakhir dan cerita dimulai" data-date="DESA BUSSU · 2026" data-image="assets/images/11.jpeg" tabindex="0" role="button" aria-label="Lihat memori: Tempat jalan berakhir dan cerita dimulai">
+  <div class="memory-photo">
+    <img src="assets/images/11.jpeg" alt="Desa Bussu" loading="lazy">
+    <div class="memory-overlay">
+      <span>LIHAT MEMORI</span>
+      <strong aria-hidden="true">↗</strong>
+    </div>
+    <div class="memory-number">11</div>
+  </div>
+  <div class="memory-caption">
+    <div>
+      <small>BUSSU</small>
+      <h3>Tempat jalan berakhir dan cerita dimulai</h3>
+    </div>
+    <span>2026</span>
+  </div>
+</article>
+
+<!-- Memory 12 -->
+<article class="memory-item" data-category="random" data-index="11" data-title="Tidak ada yang merencanakan foto ini" data-date="KKN XLII · 2026" data-image="assets/images/12.jpeg" tabindex="0" role="button" aria-label="Lihat memori: Tidak ada yang merencanakan foto ini">
+  <div class="memory-photo">
+    <img src="assets/images/12.jpeg" alt="Momen KKN" loading="lazy">
+    <div class="memory-overlay">
+      <span>LIHAT MEMORI</span>
+      <strong aria-hidden="true">↗</strong>
+    </div>
+    <div class="memory-number">12</div>
+  </div>
+  <div class="memory-caption">
+    <div>
+      <small>RANDOM</small>
+      <h3>Tidak ada yang merencanakan foto ini</h3>
+    </div>
+    <span>2026</span>
+  </div>
+</article>
+
+<!-- Memory 13 -->
+<article class="memory-item tall" data-category="people" data-index="12" data-title="Orang asing yang jadi keluarga" data-date="KKN XLII · 2026" data-image="assets/images/13.jpeg" tabindex="0" role="button" aria-label="Lihat memori: Orang asing yang jadi keluarga">
+  <div class="memory-photo">
+    <img src="assets/images/13.jpeg" alt="Anggota KKN" loading="lazy">
+    <div class="memory-overlay">
+      <span>LIHAT MEMORI</span>
+      <strong aria-hidden="true">↗</strong>
+    </div>
+    <div class="memory-number">13</div>
+  </div>
+  <div class="memory-caption">
+    <div>
+      <small>ORANG</small>
+      <h3>Orang asing yang jadi keluarga</h3>
+    </div>
+    <span>2026</span>
+  </div>
+</article>
+
+<!-- Memory 14 -->
+<article class="memory-item" data-category="activities" data-index="13" data-title="Keringat, lumpur, dan sedikit kekacauan" data-date="KKN XLII · 2026" data-image="assets/images/14.jpeg" tabindex="0" role="button" aria-label="Lihat memori: Keringat, lumpur, dan sedikit kekacauan">
+  <div class="memory-photo">
+    <img src="assets/images/14.jpeg" alt="Kegiatan KKN" loading="lazy">
+    <div class="memory-overlay">
+      <span>LIHAT MEMORI</span>
+      <strong aria-hidden="true">↗</strong>
+    </div>
+    <div class="memory-number">14</div>
+  </div>
+  <div class="memory-caption">
+    <div>
+      <small>KEGIATAN</small>
+      <h3>Keringat, dan sedikit kekacauan</h3>
+    </div>
+    <span>2026</span>
+  </div>
+</article>
+
+<!-- Memory 15 -->
+<article class="memory-item" data-category="bussu" data-index="14" data-title="Desa yang mengajarkan kami kesabaran" data-date="DESA BUSSU · 2026" data-image="assets/images/15.jpeg" tabindex="0" role="button" aria-label="Lihat memori: Desa yang mengajarkan kami kesabaran">
+  <div class="memory-photo">
+    <img src="assets/images/15.jpeg" alt="Desa Bussu" loading="lazy">
+    <div class="memory-overlay">
+      <span>LIHAT MEMORI</span>
+      <strong aria-hidden="true">↗</strong>
+    </div>
+    <div class="memory-number">15</div>
+  </div>
+  <div class="memory-caption">
+    <div>
+      <small>BUSSU</small>
+      <h3>Desa yang mengajarkan kami kesabaran</h3>
+    </div>
+    <span>2026</span>
+  </div>
+</article>
+
+<!-- Memory 16 -->
+<article class="memory-item" data-category="random" data-index="15" data-title="Hal-hal yang terjadi di sela jadwal" data-date="KKN XLII · 2026" data-image="assets/images/16.jpeg" tabindex="0" role="button" aria-label="Lihat memori: Hal-hal yang terjadi di sela jadwal">
+  <div class="memory-photo">
+    <img src="assets/images/16.jpeg" alt="Momen KKN" loading="lazy">
+    <div class="memory-overlay">
+      <span>LIHAT MEMORI</span>
+      <strong aria-hidden="true">↗</strong>
+    </div>
+    <div class="memory-number">16</div>
+  </div>
+  <div class="memory-caption">
+    <div>
+      <small>RANDOM</small>
+      <h3>Hal-hal yang terjadi di sela jadwal</h3>
+    </div>
+    <span>2026</span>
+  </div>
+</article>
+
+<!-- Memory 17 -->
+<article class="memory-item tall" data-category="people" data-index="16" data-title="Setiap wajah punya ceritanya sendiri" data-date="KKN XLII · 2026" data-image="assets/images/17.jpeg" tabindex="0" role="button" aria-label="Lihat memori: Setiap wajah punya ceritanya sendiri">
+  <div class="memory-photo">
+    <img src="assets/images/group.jpeg" alt="Anggota KKN" loading="lazy">
+    <div class="memory-overlay">
+      <span>LIHAT MEMORI</span>
+      <strong aria-hidden="true">↗</strong>
+    </div>
+    <div class="memory-number">17</div>
+  </div>
+  <div class="memory-caption">
+    <div>
+      <small>ORANG</small>
+      <h3>Setiap wajah punya ceritanya sendiri</h3>
+    </div>
+    <span>2026</span>
+  </div>
+</article>
+
+<!-- Memory 18 -->
+<article class="memory-item wide" data-category="activities" data-index="17" data-title="Membangun sesuatu yang akan bertahan lebih lama dari kami" data-date="KKN XLII · 2026" data-image="assets/images/18.jpeg" tabindex="0" role="button" aria-label="Lihat memori: Membangun sesuatu yang akan bertahan lebih lama dari kami">
+  <div class="memory-photo">
+    <img src="assets/images/18.jpeg" alt="Kegiatan KKN" loading="lazy">
+    <div class="memory-overlay">
+      <span>LIHAT MEMORI</span>
+      <strong aria-hidden="true">↗</strong>
+    </div>
+    <div class="memory-number">18</div>
+  </div>
+  <div class="memory-caption">
+    <div>
+      <small>KEGIATAN</small>
+      <h3>Membangun sesuatu yang akan bertahan lebih lama dari kami</h3>
+    </div>
+    <span>2026</span>
+  </div>
+</article>
+
+<!-- Memory 19 -->
+<article class="memory-item" data-category="bussu" data-index="18" data-title="Pagi yang tenang di Bussu" data-date="DESA BUSSU · 2026" data-image="assets/images/19.jpeg" tabindex="0" role="button" aria-label="Lihat memori: Pagi yang tenang di Bussu">
+  <div class="memory-photo">
+    <img src="assets/images/19.jpeg" alt="Desa Bussu" loading="lazy">
+    <div class="memory-overlay">
+      <span>LIHAT MEMORI</span>
+      <strong aria-hidden="true">↗</strong>
+    </div>
+    <div class="memory-number">19</div>
+  </div>
+  <div class="memory-caption">
+    <div>
+      <small>BUSSU</small>
+      <h3>Pagi yang tenang di Bussu</h3>
+    </div>
+    <span>2026</span>
+  </div>
+</article>
+
+<!-- Memory 20 -->
+<article class="memory-item" data-category="random" data-index="19" data-title="Saat kamera menangkap kami tanpa bersiap" data-date="KKN XLII · 2026" data-image="assets/images/20.jpeg" tabindex="0" role="button" aria-label="Lihat memori: Saat kamera menangkap kami tanpa bersiap">
+  <div class="memory-photo">
+    <img src="assets/images/20.jpeg" alt="Momen KKN" loading="lazy">
+    <div class="memory-overlay">
+      <span>LIHAT MEMORI</span>
+      <strong aria-hidden="true">↗</strong>
+    </div>
+    <div class="memory-number">20</div>
+  </div>
+  <div class="memory-caption">
+    <div>
+      <small>RANDOM</small>
+      <h3>Saat kamera menangkap kami tanpa bersiap</h3>
+    </div>
+    <span>2026</span>
+  </div>
+</article>
+
+<!-- Memory 21 -->
+<article class="memory-item tall" data-category="people" data-index="20" data-title="Tim yang membawa kami sampai akhir" data-date="KKN XLII · 2026" data-image="assets/images/21.jpeg" tabindex="0" role="button" aria-label="Lihat memori: Tim yang membawa kami sampai akhir">
+  <div class="memory-photo">
+    <img src="assets/images/memory-2.jpeg" alt="Anggota KKN" loading="lazy">
+    <div class="memory-overlay">
+      <span>LIHAT MEMORI</span>
+      <strong aria-hidden="true">↗</strong>
+    </div>
+    <div class="memory-number">21</div>
+  </div>
+  <div class="memory-caption">
+    <div>
+      <small>ORANG</small>
+      <h3>Tim yang membawa kami sampai akhir</h3>
+    </div>
+    <span>2026</span>
+  </div>
+</article>
+
+<!-- Memory 22 -->
+<article class="memory-item" data-category="activities" data-index="21" data-title="Pagi yang lebih awal, hari yang panjang" data-date="KKN XLII · 2026" data-image="assets/images/22.jpeg" tabindex="0" role="button" aria-label="Lihat memori: Pagi yang lebih awal, hari yang panjang">
+  <div class="memory-photo">
+    <img src="assets/images/22.jpeg" alt="Kegiatan KKN" loading="lazy">
+    <div class="memory-overlay">
+      <span>LIHAT MEMORI</span>
+      <strong aria-hidden="true">↗</strong>
+    </div>
+    <div class="memory-number">22</div>
+  </div>
+  <div class="memory-caption">
+    <div>
+      <small>KEGIATAN</small>
+      <h3>Pagi yang lebih awal, hari yang panjang</h3>
+    </div>
+    <span>2026</span>
+  </div>
+</article>
+
+<!-- Memory 23 -->
+<article class="memory-item" data-category="bussu" data-index="22" data-title="Tempat yang lebih besar dari ukurannya" data-date="DESA BUSSU · 2026" data-image="assets/images/23.jpeg" tabindex="0" role="button" aria-label="Lihat memori: Tempat yang lebih besar dari ukurannya">
+  <div class="memory-photo">
+    <img src="assets/images/3.jpeg" alt="Desa Bussu" loading="lazy">
+    <div class="memory-overlay">
+      <span>LIHAT MEMORI</span>
+      <strong aria-hidden="true">↗</strong>
+    </div>
+    <div class="memory-number">23</div>
+  </div>
+  <div class="memory-caption">
+    <div>
+      <small>BUSSU</small>
+      <h3>Tempat yang lebih besar dari ukurannya</h3>
+    </div>
+    <span>2026</span>
+  </div>
+</article>
+
+<!-- Memory 24 -->
+<article class="memory-item" data-category="random" data-index="23" data-title="Tidak semua hal butuh penjelasan" data-date="KKN XLII · 2026" data-image="assets/images/24.jpeg" tabindex="0" role="button" aria-label="Lihat memori: Tidak semua hal butuh penjelasan">
+  <div class="memory-photo">
+    <img src="assets/images/24.jpeg" alt="Momen KKN" loading="lazy">
+    <div class="memory-overlay">
+      <span>LIHAT MEMORI</span>
+      <strong aria-hidden="true">↗</strong>
+    </div>
+    <div class="memory-number">24</div>
+  </div>
+  <div class="memory-caption">
+    <div>
+      <small>RANDOM</small>
+      <h3>Tidak semua hal butuh penjelasan</h3>
+    </div>
+    <span>2026</span>
+  </div>
+</article>
+
+<!-- Memory 25 -->
+<article class="memory-item wide" data-category="people" data-index="24" data-title="Kelompok kecil, hati yang besar" data-date="KKN XLII · 2026" data-image="assets/images/25.jpeg" tabindex="0" role="button" aria-label="Lihat memori: Kelompok kecil, hati yang besar">
+  <div class="memory-photo">
+    <img src="assets/images/25.jpeg" alt="Anggota KKN" loading="lazy">
+    <div class="memory-overlay">
+      <span>LIHAT MEMORI</span>
+      <strong aria-hidden="true">↗</strong>
+    </div>
+    <div class="memory-number">25</div>
+  </div>
+  <div class="memory-caption">
+    <div>
+      <small>ORANG</small>
+      <h3>Kelompok kecil, hati yang besar</h3>
+    </div>
+    <span>2026</span>
+  </div>
+</article>
+
+<!-- Memory 26 -->
+<article class="memory-item" data-category="activities" data-index="25" data-title="Mengajar dan belajar, sekaligus" data-date="KKN XLII · 2026" data-image="assets/images/26.jpeg" tabindex="0" role="button" aria-label="Lihat memori: Mengajar dan belajar, sekaligus">
+  <div class="memory-photo">
+    <img src="assets/images/26.jpeg" alt="Kegiatan KKN" loading="lazy">
+    <div class="memory-overlay">
+      <span>LIHAT MEMORI</span>
+      <strong aria-hidden="true">↗</strong>
+    </div>
+    <div class="memory-number">26</div>
+  </div>
+  <div class="memory-caption">
+    <div>
+      <small>KEGIATAN</small>
+      <h3>Mengajar dan belajar, sekaligus</h3>
+    </div>
+    <span>2026</span>
+  </div>
+</article>
+
+<!-- Memory 27 -->
+<article class="memory-item" data-category="bussu" data-index="26" data-title="Pemandangan yang tak pernah membosankan" data-date="DESA BUSSU · 2026" data-image="assets/images/27.jpeg" tabindex="0" role="button" aria-label="Lihat memori: Pemandangan yang tak pernah membosankan">
+  <div class="memory-photo">
+    <img src="assets/images/27.jpeg" alt="Desa Bussu" loading="lazy">
+    <div class="memory-overlay">
+      <span>LIHAT MEMORI</span>
+      <strong aria-hidden="true">↗</strong>
+    </div>
+    <div class="memory-number">27</div>
+  </div>
+  <div class="memory-caption">
+    <div>
+      <small>BUSSU</small>
+      <h3>Pemandangan yang tak pernah membosankan</h3>
+    </div>
+    <span>2026</span>
+  </div>
+</article>
+
+<!-- Memory 28 -->
+<article class="memory-item" data-category="random" data-index="27" data-title="Obrolan tengah malam, tanpa agenda" data-date="KKN XLII · 2026" data-image="assets/images/28.jpeg" tabindex="0" role="button" aria-label="Lihat memori: Obrolan tengah malam, tanpa agenda">
+  <div class="memory-photo">
+    <img src="assets/images/28.jpeg" alt="Momen KKN" loading="lazy">
+    <div class="memory-overlay">
+      <span>LIHAT MEMORI</span>
+      <strong aria-hidden="true">↗</strong>
+    </div>
+    <div class="memory-number">28</div>
+  </div>
+  <div class="memory-caption">
+    <div>
+      <small>RANDOM</small>
+      <h3>Obrolan tengah malam, tanpa agenda</h3>
+    </div>
+    <span>2026</span>
+  </div>
+</article>
+
+<!-- Memory 29 -->
+<article class="memory-item tall" data-category="people" data-index="28" data-title="Orang-orang yang tak disangka akan dirindukan" data-date="KKN XLII · 2026" data-image="assets/images/29.jpeg" tabindex="0" role="button" aria-label="Lihat memori: Orang-orang yang tak disangka akan dirindukan">
+  <div class="memory-photo">
+    <img src="assets/images/29.jpeg" alt="Anggota KKN" loading="lazy">
+    <div class="memory-overlay">
+      <span>LIHAT MEMORI</span>
+      <strong aria-hidden="true">↗</strong>
+    </div>
+    <div class="memory-number">29</div>
+  </div>
+  <div class="memory-caption">
+    <div>
+      <small>ORANG</small>
+      <h3>Orang-orang yang tak disangka akan dirindukan</h3>
+    </div>
+    <span>2026</span>
+  </div>
+</article>
+
+<!-- Memory 30 -->
+<article class="memory-item" data-category="activities" data-index="29" data-title="Program yang hampir tidak selesai tepat waktu" data-date="KKN XLII · 2026" data-image="assets/images/30.jpeg" tabindex="0" role="button" aria-label="Lihat memori: Program yang hampir tidak selesai tepat waktu">
+  <div class="memory-photo">
+    <img src="assets/images/30.jpeg" alt="Kegiatan KKN" loading="lazy">
+    <div class="memory-overlay">
+      <span>LIHAT MEMORI</span>
+      <strong aria-hidden="true">↗</strong>
+    </div>
+    <div class="memory-number">30</div>
+  </div>
+  <div class="memory-caption">
+    <div>
+      <small>KEGIATAN</small>
+      <h3>Program yang hampir tidak selesai tepat waktu</h3>
+    </div>
+    <span>2026</span>
+  </div>
+</article>
+
+<!-- Memory 31 -->
+<article class="memory-item" data-category="bussu" data-index="30" data-title="Bussu saat matahari terbenam" data-date="DESA BUSSU · 2026" data-image="assets/images/31.jpeg" tabindex="0" role="button" aria-label="Lihat memori: Bussu saat matahari terbenam">
+  <div class="memory-photo">
+    <img src="assets/images/31.jpeg" alt="Desa Bussu" loading="lazy">
+    <div class="memory-overlay">
+      <span>LIHAT MEMORI</span>
+      <strong aria-hidden="true">↗</strong>
+    </div>
+    <div class="memory-number">31</div>
+  </div>
+  <div class="memory-caption">
+    <div>
+      <small>BUSSU</small>
+      <h3>Bussu saat matahari terbenam</h3>
+    </div>
+    <span>2026</span>
+  </div>
+</article>
+
+<!-- Memory 32 -->
+<article class="memory-item wide" data-category="random" data-index="31" data-title="Kekacauan yang nanti akan kami tertawakan" data-date="KKN XLII · 2026" data-image="assets/images/32.jpeg" tabindex="0" role="button" aria-label="Lihat memori: Kekacauan yang nanti akan kami tertawakan">
+  <div class="memory-photo">
+    <img src="assets/images/32.jpeg" alt="Momen KKN" loading="lazy">
+    <div class="memory-overlay">
+      <span>LIHAT MEMORI</span>
+      <strong aria-hidden="true">↗</strong>
+    </div>
+    <div class="memory-number">32</div>
+  </div>
+  <div class="memory-caption">
+    <div>
+      <small>RANDOM</small>
+      <h3>Kekacauan yang nanti akan kami tertawakan</h3>
+    </div>
+    <span>2026</span>
+  </div>
+</article>
+
+<!-- Memory 33 -->
+<article class="memory-item tall" data-category="people" data-index="32" data-title="Tim di balik setiap program" data-date="KKN XLII · 2026" data-image="assets/images/33.jpeg" tabindex="0" role="button" aria-label="Lihat memori: Tim di balik setiap program">
+  <div class="memory-photo">
+    <img src="assets/images/33.jpeg" alt="Anggota KKN" loading="lazy">
+    <div class="memory-overlay">
+      <span>LIHAT MEMORI</span>
+      <strong aria-hidden="true">↗</strong>
+    </div>
+    <div class="memory-number">33</div>
+  </div>
+  <div class="memory-caption">
+    <div>
+      <small>ORANG</small>
+      <h3>Tim di balik setiap program</h3>
+    </div>
+    <span>2026</span>
+  </div>
+</article>
+
+<!-- Memory 34 -->
+<article class="memory-item" data-category="activities" data-index="33" data-title="Tugas kecil, dampak yang bertahan lama" data-date="KKN XLII · 2026" data-image="assets/images/34.jpeg" tabindex="0" role="button" aria-label="Lihat memori: Tugas kecil, dampak yang bertahan lama">
+  <div class="memory-photo">
+    <img src="assets/images/34.jpeg" alt="Kegiatan KKN" loading="lazy">
+    <div class="memory-overlay">
+      <span>LIHAT MEMORI</span>
+      <strong aria-hidden="true">↗</strong>
+    </div>
+    <div class="memory-number">34</div>
+  </div>
+  <div class="memory-caption">
+    <div>
+      <small>KEGIATAN</small>
+    </div>
+    <span>2026</span>
+  </div>
+</article>
+
+<!-- Memory 35 -->
+<article class="memory-item" data-category="bussu" data-index="34" data-title="Jalan yang sudah ratusan kali kami lewati" data-date="DESA BUSSU · 2026" data-image="assets/images/35.jpeg" tabindex="0" role="button" aria-label="Lihat memori: Jalan yang sudah ratusan kali kami lewati">
+  <div class="memory-photo">
+    <img src="assets/images/35.jpeg" alt="Desa Bussu" loading="lazy">
+    <div class="memory-overlay">
+      <span>LIHAT MEMORI</span>
+      <strong aria-hidden="true">↗</strong>
+    </div>
+    <div class="memory-number">35</div>
+  </div>
+  <div class="memory-caption">
+    <div>
+      <small>BUSSU</small>
+    </div>
+    <span>2026</span>
+  </div>
+</article>
+
+<!-- Memory 36 -->
+<article class="memory-item" data-category="random" data-index="35" data-title="Tidak direncanakan, tak terlupakan" data-date="KKN XLII · 2026" data-image="assets/images/36.jpeg" tabindex="0" role="button" aria-label="Lihat memori: Tidak direncanakan, tak terlupakan">
+  <div class="memory-photo">
+    <img src="assets/images/36.jpeg" alt="Momen KKN" loading="lazy">
+    <div class="memory-overlay">
+      <span>LIHAT MEMORI</span>
+      <strong aria-hidden="true">↗</strong>
+    </div>
+    <div class="memory-number">36</div>
+  </div>
+  <div class="memory-caption">
+    <div>
+      <small>RANDOM</small>
+    </div>
+    <span>2026</span>
+  </div>
+</article>
+
+<!-- Memory 37 -->
+<article class="memory-item tall" data-category="people" data-index="36" data-title="Tertawa di tengah lelah" data-date="KKN XLII · 2026" data-image="assets/images/37.jpeg" tabindex="0" role="button" aria-label="Lihat memori: Tertawa di tengah lelah">
+  <div class="memory-photo">
+    <img src="assets/images/37.jpeg" alt="Anggota KKN" loading="lazy">
+    <div class="memory-overlay">
+      <span>LIHAT MEMORI</span>
+      <strong aria-hidden="true">↗</strong>
+    </div>
+    <div class="memory-number">37</div>
+  </div>
+  <div class="memory-caption">
+    <div>
+      <small>ORANG</small>
+    </div>
+    <span>2026</span>
+  </div>
+</article>
+
+<!-- Memory 38 -->
+<article class="memory-item" data-category="activities" data-index="37" data-title="Bekerja di bawah terik siang" data-date="KKN XLII · 2026" data-image="assets/images/38.jpeg" tabindex="0" role="button" aria-label="Lihat memori: Bekerja di bawah terik siang">
+  <div class="memory-photo">
+    <img src="assets/images/38.jpeg" alt="Kegiatan KKN" loading="lazy">
+    <div class="memory-overlay">
+      <span>LIHAT MEMORI</span>
+      <strong aria-hidden="true">↗</strong>
+    </div>
+    <div class="memory-number">38</div>
+  </div>
+  <div class="memory-caption">
+    <div>
+      <small>KEGIATAN</small>
+    </div>
+    <span>2026</span>
+  </div>
+</article>
+
+<!-- Memory 39 -->
+<article class="memory-item wide" data-category="bussu" data-index="38" data-title="Rumah yang sempat menjadi milik kami" data-date="DESA BUSSU · 2026" data-image="assets/images/39.jpeg" tabindex="0" role="button" aria-label="Lihat memori: Rumah yang sempat menjadi milik kami">
+  <div class="memory-photo">
+    <img src="assets/images/39.jpeg" alt="Desa Bussu" loading="lazy">
+    <div class="memory-overlay">
+      <span>LIHAT MEMORI</span>
+      <strong aria-hidden="true">↗</strong>
+    </div>
+    <div class="memory-number">39</div>
+  </div>
+  <div class="memory-caption">
+    <div>
+      <small>BUSSU</small>
+    </div>
+    <span>2026</span>
+  </div>
+</article>
+
+<!-- Memory 40 -->
+<article class="memory-item" data-category="random" data-index="39" data-title="Antara istirahat dan hampir menyerah" data-date="KKN XLII · 2026" data-image="assets/images/40.jpeg" tabindex="0" role="button" aria-label="Lihat memori: Antara istirahat dan hampir menyerah">
+  <div class="memory-photo">
+    <img src="assets/images/40.jpeg" alt="Momen KKN" loading="lazy">
+    <div class="memory-overlay">
+      <span>LIHAT MEMORI</span>
+      <strong aria-hidden="true">↗</strong>
+    </div>
+    <div class="memory-number">40</div>
+  </div>
+  <div class="memory-caption">
+    <div>
+      <small>RANDOM</small>
+    </div>
+    <span>2026</span>
+  </div>
+</article>
+
+<!-- Memory 41 -->
+<article class="memory-item tall" data-category="people" data-index="40" data-title="Teman yang kami temukan di perjalanan" data-date="KKN XLII · 2026" data-image="assets/images/41.jpeg" tabindex="0" role="button" aria-label="Lihat memori: Teman yang kami temukan di perjalanan">
+  <div class="memory-photo">
+    <img src="assets/images/41.jpeg" alt="Anggota KKN" loading="lazy">
+    <div class="memory-overlay">
+      <span>LIHAT MEMORI</span>
+      <strong aria-hidden="true">↗</strong>
+    </div>
+    <div class="memory-number">41</div>
+  </div>
+  <div class="memory-caption">
+    <div>
+      <small>ORANG</small>
+    </div>
+    <span>2026</span>
+  </div>
+</article>
+
+<!-- Memory 42 -->
+<article class="memory-item" data-category="activities" data-index="41" data-title="Rapat perencanaan yang kelamaan" data-date="KKN XLII · 2026" data-image="assets/images/42.jpeg" tabindex="0" role="button" aria-label="Lihat memori: Rapat perencanaan yang kelamaan">
+  <div class="memory-photo">
+    <img src="assets/images/42.jpeg" alt="Kegiatan KKN" loading="lazy">
+    <div class="memory-overlay">
+      <span>LIHAT MEMORI</span>
+      <strong aria-hidden="true">↗</strong>
+    </div>
+    <div class="memory-number">42</div>
+  </div>
+  <div class="memory-caption">
+    <div>
+      <small>KEGIATAN</small>
+    </div>
+    <span>2026</span>
+  </div>
+</article>
+
+<!-- Memory 43 -->
+<article class="memory-item" data-category="bussu" data-index="42" data-title="Sawah dan sore yang tenang" data-date="DESA BUSSU · 2026" data-image="assets/images/43.jpeg" tabindex="0" role="button" aria-label="Lihat memori: Sawah dan sore yang tenang">
+  <div class="memory-photo">
+    <img src="assets/images/43.jpeg" alt="Desa Bussu" loading="lazy">
+    <div class="memory-overlay">
+      <span>LIHAT MEMORI</span>
+      <strong aria-hidden="true">↗</strong>
+    </div>
+    <div class="memory-number">43</div>
+  </div>
+  <div class="memory-caption">
+    <div>
+      <small>BUSSU</small>
+    </div>
+    <span>2026</span>
+  </div>
+</article>
+
+<!-- Memory 44 -->
+<article class="memory-item" data-category="random" data-index="43" data-title="Kenangan yang tidak masuk kategori mana pun" data-date="KKN XLII · 2026" data-image="assets/images/44.jpeg" tabindex="0" role="button" aria-label="Lihat memori: Kenangan yang tidak masuk kategori mana pun">
+  <div class="memory-photo">
+    <img src="assets/images/44.jpeg" alt="Momen KKN" loading="lazy">
+    <div class="memory-overlay">
+      <span>LIHAT MEMORI</span>
+      <strong aria-hidden="true">↗</strong>
+    </div>
+    <div class="memory-number">44</div>
+  </div>
+  <div class="memory-caption">
+    <div>
+      <small>RANDOM</small>
+    </div>
+    <span>2026</span>
+  </div>
+</article>
+
+<!-- Memory 45 -->
+<article class="memory-item tall" data-category="people" data-index="44" data-title="Orang-orang yang selalu hadir setiap hari" data-date="KKN XLII · 2026" data-image="assets/images/45.jpeg" tabindex="0" role="button" aria-label="Lihat memori: Orang-orang yang selalu hadir setiap hari">
+  <div class="memory-photo">
+    <img src="assets/images/45.jpeg" alt="Anggota KKN" loading="lazy">
+    <div class="memory-overlay">
+      <span>LIHAT MEMORI</span>
+      <strong aria-hidden="true">↗</strong>
+    </div>
+    <div class="memory-number">45</div>
+  </div>
+  <div class="memory-caption">
+    <div>
+      <small>ORANG</small>
+    </div>
+    <span>2026</span>
+  </div>
+</article>
+
+<!-- Memory 46 -->
+<article class="memory-item wide" data-category="activities" data-index="45" data-title="Usaha terakhir sebelum tenggat" data-date="KKN XLII · 2026" data-image="assets/images/46.jpeg" tabindex="0" role="button" aria-label="Lihat memori: Usaha terakhir sebelum tenggat">
+  <div class="memory-photo">
+    <img src="assets/images/46.jpeg" alt="Kegiatan KKN" loading="lazy">
+    <div class="memory-overlay">
+      <span>LIHAT MEMORI</span>
+      <strong aria-hidden="true">↗</strong>
+    </div>
+    <div class="memory-number">46</div>
+  </div>
+  <div class="memory-caption">
+    <div>
+      <small>KEGIATAN</small>
+    </div>
+    <span>2026</span>
+  </div>
+</article>
+
+<!-- Memory 47 -->
+<article class="memory-item" data-category="bussu" data-index="46" data-title="Di sinilah kami sempat merasa memiliki, meski sebentar" data-date="DESA BUSSU · 2026" data-image="assets/images/47.jpeg" tabindex="0" role="button" aria-label="Lihat memori: Di sinilah kami sempat merasa memiliki, meski sebentar">
+  <div class="memory-photo">
+    <img src="assets/images/47.jpeg" alt="Desa Bussu" loading="lazy">
+    <div class="memory-overlay">
+      <span>LIHAT MEMORI</span>
+      <strong aria-hidden="true">↗</strong>
+    </div>
+    <div class="memory-number">47</div>
+  </div>
+  <div class="memory-caption">
+    <div>
+      <small>BUSSU</small>
+    </div>
+    <span>2026</span>
+  </div>
+</article>
+
+<!-- Memory 48 -->
+<article class="memory-item" data-category="random" data-index="47" data-title="Sekadar kami, apa adanya" data-date="KKN XLII · 2026" data-image="assets/images/48.jpeg" tabindex="0" role="button" aria-label="Lihat memori: Sekadar kami, apa adanya">
+  <div class="memory-photo">
+    <img src="assets/images/48.jpeg" alt="Momen KKN" loading="lazy">
+    <div class="memory-overlay">
+      <span>LIHAT MEMORI</span>
+      <strong aria-hidden="true">↗</strong>
+    </div>
+    <div class="memory-number">48</div>
+  </div>
+  <div class="memory-caption">
+    <div>
+      <small>RANDOM</small>
+    </div>
+    <span>2026</span>
+  </div>
+</article>
+
+<!-- Memory 49 -->
+<article class="memory-item tall" data-category="people" data-index="48" data-title="Bersama, untuk satu kali lagi" data-date="KKN XLII · 2026" data-image="assets/images/49.jpeg" tabindex="0" role="button" aria-label="Lihat memori: Bersama, untuk satu kali lagi">
+  <div class="memory-photo">
+    <img src="assets/images/49.jpeg" alt="Anggota KKN" loading="lazy">
+    <div class="memory-overlay">
+      <span>LIHAT MEMORI</span>
+      <strong aria-hidden="true">↗</strong>
+    </div>
+    <div class="memory-number">49</div>
+  </div>
+  <div class="memory-caption">
+    <div>
+      <small>ORANG</small>
+    </div>
+    <span>2026</span>
+  </div>
+</article>
+
+<!-- Memory 50 -->
+<article class="memory-item" data-category="activities" data-index="49" data-title="Mengerjakan hal yang tak banyak orang lihat" data-date="KKN XLII · 2026" data-image="assets/images/50.jpeg" tabindex="0" role="button" aria-label="Lihat memori: Mengerjakan hal yang tak banyak orang lihat">
+  <div class="memory-photo">
+    <img src="assets/images/50.jpeg" alt="Kegiatan KKN" loading="lazy">
+    <div class="memory-overlay">
+      <span>LIHAT MEMORI</span>
+      <strong aria-hidden="true">↗</strong>
+    </div>
+    <div class="memory-number">50</div>
+  </div>
+  <div class="memory-caption">
+    <div>
+      <small>KEGIATAN</small>
+    </div>
+    <span>2026</span>
+  </div>
+</article>      </div>
+    </section>
+
+    <section class="memory-ending">
+      <div class="ending-doodle" aria-hidden="true">✦</div>
+      <p>SOME MOMENTS END.</p>
+      <h2>THE MEMORIES<br><em>DON'T.</em></h2>
+      <a href="index.html" class="back-home"><span aria-hidden="true">←</span> BACK TO HOME</a>
+    </section>
+  </main>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Pratinjau memori" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Tutup">×</button>
+    <button class="lightbox-prev" id="lightboxPrev" aria-label="Memori sebelumnya">←</button>
+    <div class="lightbox-content">
+      <img id="lightboxImage" src="" alt="">
+      <div class="lightbox-info">
+        <div>
+          <span id="lightboxCategory">MEMORY</span>
+          <h3 id="lightboxTitle">Memory title</h3>
+        </div>
+        <p id="lightboxDate">KKN XLII · 2026</p>
+      </div>
+    </div>
+    <button class="lightbox-next" id="lightboxNext" aria-label="Memori berikutnya">→</button>
+  </div>
+
+  <script src="memories.js"></script>
+  <script src="global.js"></script>
+</body>
+</html>
